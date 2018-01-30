@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id='q01'>
+        <tagname>INPUT</tagname>
+        <title>¿ Quien es el propietario de Kojima Productions ?</title>
+        <answer>Konami</answer>
+    </question>
+    <question id='q02'>
+        <tagname>INPUT</tagname>
+        <title>¿ Que empresa es la que creo la saga Warcraft ?</title>
+        <answer>Blizzard</answer>
+    </question>
+    <question id='q03'>
+        <tagname>SELECT</tagname>
+        <title>¿ Que empresa es responsable del video juego League Of Legends ?</title>
+        <option>RIOT</option>
+        <option>Blizzard</option>
+        <option>Platinum Games</option>
+        <option>Square nix</option>
+        <option>Nintendo</option>
+        <answer>0</answer>
+    </question>
+    <question id='q04'>
+        <tagname>SELECT</tagname>
+        <title>¿ Cuales de estos personajes son personajes de la saga Final Fantasy ?</title>
+        <option>Cloud</option>
+        <option>Noctis</option>
+        <option>Ash</option>
+        <option>Squal</option>
+        <option>Luna</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>3</answer>
+    </question>
+</questions>

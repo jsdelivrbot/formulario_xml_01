@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id='profe001'>
+        <type>text</type>
+        <title>¿ Quien es el propietario de Kojima Productions ?</title>
+        <answer>Konami</answer>
+    </question>
+    <question id='profe002'>
+        <type>text</type>
+        <title>¿ Que empresa es la que creo la saga Warcraft ?</title>
+        <answer>Blizzard</answer>
+    </question>
+    <question id='profe003'>
+        <type>select</type>
+        <title>¿ Que empresa es responsable del video juego League Of Legends ?</title>
+        <option>RIOT</option>
+        <option>Blizzard</option>
+        <option>Platinum Games</option>
+        <option>Square nix</option>
+        <option>Nintendo</option>
+        <answer>0</answer>
+    </question>
+    <question id='profe004'>
+        <type>select</type>
+        <title>¿ Que motor grafico utiliza el videojuego Dark Souls ?</title>
+        <option>CryENGINE</option>
+        <option>Unreal Engine</option>
+        <option>Havok</option>
+        <option>Source</option>
+        <option>Unity</option>
+        <answer>2</answer>
+    </question>
+    <question id='profe005'>
+        <type>multiple</type>
+        <title>¿ Cuales de estos personajes son personajes de la saga Final Fantasy ?</title>
+        <option>Cloud</option>
+        <option>Noctis</option>
+        <option>Ash</option>
+        <option>Squal</option>
+        <option>Luna</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>3</answer>
+    </question>
+    <question id='profe006'>
+        <type>multiple</type>
+        <title>¿ Que invocaciones aparecen en Final Fantasy XV ?</title>
+        <option>Leviathan</option>
+        <option>Titan</option>
+        <option>Odin</option>
+        <option>Lamhu</option>
+        <option>Shiva</option>
+        <option>Ifrit</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>3</answer>
+        <answer>4</answer>
+        <answer>5</answer>
+    </question>
+    <question id='profe007'>
+        <type>checkbox</type>
+        <title>¿ Cuales de estas cartas no son del conocido juego Clash Royale ?</title>
+        <option>Cazador</option>
+        <option>Caballos</option>
+        <option>Esqueletos de fuego</option>
+        <option>Golem de hierro</option>
+        <option>Mortero</option>
+        <answer>0</answer>
+        <answer>4</answer>
+    </question>
+    <question id='profe008'>
+        <type>checkbox</type>
+        <title>¿ Que videojuego de Dragon Ball salio en enero de 2018 ?</title>
+        <option>Budokai Tenkaichi 3</option>
+        <option>Zenkai Battle Royale </option>
+        <option>Dragon Ball FighterZ</option>
+        <option>XENOVERSE 2</option>
+        <option>Raging Blast 2 </option>
+        <answer>2</answer>
+    </question>
+    <question id='profe009'>
+        <type>radio</type>
+        <title>¿ Para que consola salio a la venta el primer super Mario Bros ?</title>
+        <option>Arcade</option>
+        <option>Famicom Disk System</option>
+        <option>Game Boy Color</option>
+        <option>Game Boy Advance</option>
+        <option>NES</option>
+        <answer>4</answer>
+    </question>
+    <question id='profe010'>
+        <type>radio</type>
+        <title>¿ Que raza te suele acompañar/ayudar en el videojuego Monster Hunter ?</title>
+        <option>Herbívoro</option>
+        <option>Lynian</option>
+        <option>Wyvern</option>
+        <option>Laviente</option>
+        <option>Estrellian</option>
+        <answer>1</answer>
+    </question>
+</questions>

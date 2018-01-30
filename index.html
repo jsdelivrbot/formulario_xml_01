@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./js/script.js"></script>
+</head>
+<!-- 2 inputs
+2 selects
+2 selects multiples
+2 checkbos
+2 radio -->
+<body>
+    <div class="fondo">
+        <div class="header"><h1 class="title_header">Formulario</h1><img src="img/nes-icon.png" alt="NES" class="iconHeader"></div>
+        <div class="container">
+            <br>
+            <br>
+            <form id="myForm">
+                <h3>¿ Input ?</h3>
+                <input type="text" placeholder="Texto - Valores">
+                <br>
+                <br>
+                <h3>¿ Input ?</h3>
+                <input type="text" placeholder="Texto - Valores">
+                <br>
+                <br>
+                <h3>¿ Select multiple ?</h3>
+                <select id='selector1' multiple>
+                    <option value="0">Pantera</option>
+                    <option value="1">Oso</option>
+                    <option value="2">Mesa</option>
+                    <option value="3">Melon</option>
+                    <option value="4">Sandia</option>
+                    <option value="5">Rata</option>
+                </select>
+                <br>
+                <br>
+                <h3>¿ Select multiple ?</h3>
+                <select id='selector2' multiple>
+                    <option value="0">1</option>
+                    <option value="1">6</option>
+                    <option value="2">7</option>
+                    <option value="3">-1</option>
+                    <option value="4">9</option>
+                    <option value="5">-100</option>
+                </select>
+                <br>
+                <br>
+                <h3>¿ Radio ?</h3>
+                <div class="left_content">
+                    <input type="radio" name="gender" value="male"> Male
+                    <br>
+                    <input type="radio" name="gender" value="female"> Female
+                    <br>
+                    <input type="radio" name="gender" value="other"> Other
+                </div>
+                <br>
+                <br>
+                <h3>¿ Radio ?</h3>
+                <div class="left_content">
+                    <input type="radio" name="animal" value="animal1"> animal1
+                    <br>
+                    <input type="radio" name="animal" value="animal2"> animal2
+                    <br>
+                    <input type="radio" name="animal" value="animal3"> animal3
+                </div>
+                <br>
+                <br>
+                <input id='enviar' type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
