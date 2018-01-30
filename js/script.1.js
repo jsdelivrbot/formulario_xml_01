@@ -1,47 +1,22 @@
-var form1 = null;
-var fe = null;
-var getValuesF = null;
-var select1=null;
-var solselect1=[1,2]
 window.onload = function () {
-
-    form1 = document.getElementById("selector1");
-    fe = document.getElementById('myForm');
-    fe.onsubmit = function () {
-        message();
-        return false;
-    }
-    document.getElementById('enviar').onclick = function () {
-        select1=document.getElementsByTagName('select')[0];
-
-        console.log(getSelectValues(select1,solselect1));
-        
-        return false;
-    }
-    
-}
-
-function getSelectValues(select,solutions) {
-    var result = [];
-    var options = select && select.options;
-    var opt;
-    var aux=0;;
-  
-    for (var i=0;i<options.length; i++) {
-      opt = options[i];
-  
-      if (opt.selected) {
-        result.push(opt.value /*|| opt.text*/ );
-      }
-    }
-
-    result.forEach(function(val) {
-        if (solutions.indexOf(val)) {
-            alert('Correcto');
-        } else{
-            alert('Falso');
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            gestionarXml(this);
         }
-    });
+    };
+    xhttp.open("GET", "https://rawgit.com/godoymario95/formulario_xml_01/master/data/xml/questions2.xml", true);
+    xhttp.send();
 
-    return result;
+    function gestionarXml(dadesXml) {
+        var xmlDoc = dadesXml.responseXML;
+
+        var inputQuestion = xmlDoc.getElementsByTagName("question")[0].innerHTML;
+        ponerDatosInputHtml(inputQuestion);
+        inputSolucion = parseInt(xmlDoc.getElementsByTagName("answer")[0].innerHTML);
+    }
+
+    function ponerDatosInputHtml(t) {
+        document.getElementById("inputQuestion").innerHTML = t;
+    }
 }
