@@ -5,7 +5,7 @@ window.onload = function () {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "https://rawgit.com/godoymario95/formulario_xml_01/master/data/xml/questions2.xml", true);
+    xhttp.open("GET", "https://cdn.jsdelivr.net/gh/godoymario95/formulario_xml_01/data/xml/questions2.xml", true);
     xhttp.send();
 
     function gestionarXml(dadesXml) {
